@@ -10,6 +10,6 @@ entries:
     name: mychart
     type: application
     urls:
-    - https://vikasupadhyaya.github.io/helm_charts/internal-service/chart-0.1.0.tgz
+    - https://vikasupadhyaya.github.io/helm-charts/internal-service/chart-0.1.0.tgz
     version: 0.1.0
 generated: "2025-09-24T21:48:43.829086+02:00"
