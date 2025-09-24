@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-09-24T21:38:19.010402+02:00"
+    description: A reusable Helm chart for Flask apps (or any web app)
+    digest: 6e1c03784f07951fc99001ae2024f38110daceaa15d36a86a1336b1de23b3604
+    icon: https://raw.githubusercontent.com/helm/helm/main/docs/images/helm.svg
+    name: mychart
+    type: application
+    urls:
+    - chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-24T21:38:19.009771+02:00"
