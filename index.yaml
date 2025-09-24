@@ -3,7 +3,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-09-24T21:48:43.829743+02:00"
+    created: "2025-09-24T23:53:05.005255+02:00"
     description: A reusable Helm chart for Flask apps (or any web app)
     digest: 6e1c03784f07951fc99001ae2024f38110daceaa15d36a86a1336b1de23b3604
     icon: https://raw.githubusercontent.com/helm/helm/main/docs/images/helm.svg
@@ -12,4 +12,4 @@ entries:
     urls:
     - https://vikasupadhyaya.github.io/helm-charts/internal-service/chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-24T21:48:43.829086+02:00"
+generated: "2025-09-24T23:53:05.004673+02:00"
