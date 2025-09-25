@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
-  mychart:
+  internal-service:
   - apiVersion: v2
     appVersion: "1.0"
     created: "2025-09-25T12:22:41.793605+02:00"
     description: A reusable Helm chart for Flask apps (or any web app)
     digest: 6e1c03784f07951fc99001ae2024f38110daceaa15d36a86a1336b1de23b3604
     icon: https://raw.githubusercontent.com/helm/helm/main/docs/images/helm.svg
-    name: mychart
+    name: internal-service
     type: application
     urls:
     - internal-service-0.1.0.tgz
