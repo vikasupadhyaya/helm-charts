@@ -3,13 +3,13 @@ entries:
   internal-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-09-25T15:55:38.656595+02:00"
+    created: "2025-09-25T19:22:47.156134+02:00"
     description: Helm chart for deploying internal service
-    digest: 184f723bee75803e7245b787cf7f1ecd9e3d33349db990dd5a357b29e439806f
+    digest: 53353af1553ff6653fcc0a79de632910c3ac1124b9e34e7e60f3293de2ed8754
     icon: https://raw.githubusercontent.com/helm/helm/main/docs/images/helm.svg
     name: internal-service
     type: application
     urls:
     - internal-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-25T15:55:38.655822+02:00"
+generated: "2025-09-25T19:22:47.155403+02:00"
