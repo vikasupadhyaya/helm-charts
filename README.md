@@ -38,9 +38,11 @@ helm install flask-app mycharts/internal-service
 ```
 helm install ml-app mycharts/sample-app \
   --set image.repository=vikasupadhayaofficial/ml-app \
-  --set image.tag=latest \
+  --set image.tag="v1" \
   --set service.type=LoadBalancer \
   --set service.port=8000 \
   --set ingress.enabled=true \
-  --set ingress.annotations={"kubernetes.io/ingress.class: nginx", "kubernetes.io/tls-acme: \"false\""}
+  --set-string ingress.annotations."kubernetes\.io/ingress\.class"=alb \
+  --set-string ingress.annotations."kubernetes\.io/tls-acme"="false" \
+  -n ml-app
 ```
