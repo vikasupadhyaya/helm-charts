@@ -33,7 +33,7 @@ helm install flask-app mycharts/internal-service
   --</span><span>set</span><span> service.nodePort=30090 \
   --</span><span>set</span><span> ingress.controller=nginx</span></span></code></div></div></pre>
 
-**Sample-app-0.1.0.tgz with normal ingress:**
+**Sample-app-0.1.0.tgz with ALB ingress:**
 
 ```
 helm install ml-app mycharts/sample-app \
