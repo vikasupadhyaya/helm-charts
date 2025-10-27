@@ -3,7 +3,7 @@ entries:
   internal-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-09-26T15:08:19.83705+02:00"
+    created: "2025-10-27T15:55:35.806509+01:00"
     description: Helm chart for deploying internal service
     digest: 53353af1553ff6653fcc0a79de632910c3ac1124b9e34e7e60f3293de2ed8754
     icon: https://raw.githubusercontent.com/helm/helm/main/docs/images/helm.svg
@@ -15,7 +15,7 @@ entries:
   sample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-09-26T15:08:19.837787+02:00"
+    created: "2025-10-27T15:55:35.807373+01:00"
     description: A Helm chart for Kubernetes
     digest: fde355cec97371eea831d6d11591aa9665a2e24951b9e749fbd3dff0204241d8
     name: sample-app
@@ -23,4 +23,15 @@ entries:
     urls:
     - sample-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-26T15:08:19.836269+02:00"
+  vikunja:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-10-27T15:55:35.807673+01:00"
+    description: A Helm chart for Vikunja deployment
+    digest: af429cbc4241e9c2d256163be83ad9e252ff8e1f273389934f63317cb7d0650e
+    name: vikunja
+    type: application
+    urls:
+    - vikunja-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-10-27T15:55:35.805568+01:00"
